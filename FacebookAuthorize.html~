@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Facebook Confirmation</title>
+  </head>
+  <body>
+    <div class="screen">
+      <!--<div class="WelcomeText">Welcome!</div> -->
+      <div class="TopBarWeb">
+	<image src="arrow.png" class="arrow">
+	<div class="url">https://www.facebook.com</div>
+      </div>
+       <div class="AuthorizationText">Would you like to connect your Facebook to the app Multisocial?</div>
+      <div class="LoginPrompts">
+	<label for:"username" class="Username">Username:</label>
+	<input name="username">
+	<label for:"password" class="Password">Password:</label>
+	<input name="password">
+      </div>
+      <div class="permissions">
+	<p>Permissions:</p>
+	<ul>
+	  <li>Access your profile</li>
+	  <li>Access your followers</li>
+	  <li>Access who you are following</li>
+	  <li>Access general account information</li>
+	</ul>
+      </div>
+      <button onclick="window.location.href='HomeFeed.html'" class="LogIn">Yes</button>
+    </div>
+  </body>
+</html>

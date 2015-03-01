@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>Choose Network</title>
+  </head>
+  <body>
+    <div class="screen scroll">
+      <div class="header">
+	<ul class="buttons">
+	  <li><button onclick="window.location.href='NewPost.html'" class="NavButton"><img src="arrow.png"></button></li>
+	  <!-- <li><button onclick="window.location.href='HomeFeed.html'" class="NavButton"><img src="Home.png" class="Home"></button></li>
+	  <li><button class="NavButton"><img src="New.png" class="New"></button></li> -->
+	</ul>
+      </div>
+     <div class="NetworkChoose">What social network do you want to post to?</div>
+     <ul class="Networks">
+       <li><img onclick="window.location.href='HomeFeed.html'" src="TumblrIcon.png" class="IconBig"></li>
+       <li><img onclick="window.location.href='HomeFeed.html'" src="InstagramIcon.png" class="IconBig"></li>
+       <li><img onclick="window.location.href='HomeFeed.html'" src="FacebookIcon.png" class="IconBig"></li>
+       <li><img onclick="window.location.href='HomeFeed.html'" src="TwitterIcon.png" class="IconBig"></li>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,617 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+.screen {
+    background-color: #cdd8ff;
+    height: 960px;
+    width: 540px;
+    margin: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.WelcomeText {
+    font-family: "Muli", "Sans Serif";
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.DescriptionText {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 250px;
+    margin-bottom: 125px;
+}
+
+.LoginButton {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 90px;
+}
+
+.NoteText {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+button {
+    background-color: #FFC663;
+    border: none;
+    height: 40px;
+    width: 95px;
+    border-radius: 10px;
+}
+
+.LoginText {
+    font-family: "Muli", "Sans Serif";
+    text-align: center;
+    font-size: 55px;
+    margin-top: 80px;
+}
+
+.Username {
+    font-family: "Muli", "Sans Serif";
+    text-align: left;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.Password {
+    font-family: "Muli", "Sans Serif";
+    text-align: left;
+    font-size: 40px;
+}
+
+.Email {
+    font-family: "Muli", "Sans Serif";
+    text-align: left;
+    font-size: 40px;
+}
+
+.LoginPrompts {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.LogIn {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 80px;
+}
+
+.logins {
+    display: block;
+}
+
+.TopBarWeb {
+    width: 540px;
+    height: 90px;
+    background-color: grey;
+}
+
+.arrow {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.url {
+    text-align: center;
+    font-family: "Muli", "Sans Serif";
+    font-size: 30px;
+    margin-top: -45px;
+}
+
+.AuthorizationText {
+    font-family: "Muli", "Sans Serif";
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.permissions {
+    font-family: "Muli", "Sans Serif";
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.header {
+    width: 540px;
+    height: 90px;
+    background-color: #ffc663;
+    position: fixed;
+    z-index: 1;
+}
+
+ul li {
+    display: inline;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.NavButton {
+    width: 130px;
+    height: 55px;
+    margin-top: 15px;
+}
+
+.TumblrPost {
+    width: 500px;
+    height: 300px;
+    margin-top: 120px;
+}
+
+.TumblrPostBox {
+    width: 450px;
+    height: 300px;
+    background-color: #f0eded;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.InstagramPost {
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.InstagramPostBox {
+    width: 450px;
+    height: 300px;
+    background-color: #f0eded;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.FacebookPost {
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.FacebookPostBox {
+    width: 450px;
+    height: 300px;
+    background-color: #f0eded;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.TwitterPost {
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.TwitterPostBox {
+    width: 450px;
+    height: 300px;
+    background-color: #f0eded;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 0px;
+}
+
+.UserName {
+    font-weight: bold;
+    font-family: "Muli", "Sans Serif";
+    font-size: 21px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.ReblogIcon {
+    position: relative;
+    top: 7px;
+    left: 20px;
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.RebloggedFrom {
+    float: right;
+    clear: left;
+    position: relative;
+    bottom: 25px;
+    right: 145px;
+    font-family: "Muli", "Sans Serif";
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.TopPostBar {
+    width: 450px;
+    height: 45px;
+}
+
+.BottomPostBar li{
+    position: relative;
+    list-type: none;
+    display: inline;
+    bottom: 30px;
+}
+
+.FloatRight {
+    float: right;
+}
+
+.BottomPostBar {
+    width: 450px;
+    height: 45px;
+}
+
+/*.BottomPostBar li{
+    list-type: none;
+    display: inline;
+}*/
+
+.PostText {
+    width: 420px;
+    height: 205px;
+    margin-left: 15px;
+    font-family: "Muli", "Sans Serif";
+    font-size: 20px;
+    text-align: left;
+}
+
+.PostImage {
+    width: 420px;
+    height: 180px;
+    margin-left: 15px;
+}
+
+.InstagramImage {
+    width: 180px;
+    height: 180px;
+}
+
+.ImageCaption {
+    width: 420px;
+    height: 25px;
+    margin-left: 15px;
+    font-family: "Muli", "Sans Serif";
+    font-size: 17px;
+}
+
+.CommentsTumblr {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.NoteButton {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 15px;
+}
+
+.ReblogButton {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 17px;
+}
+
+.ViaTumblr {
+    font-family: "Muli", "Sans Serif";
+    font-size: 19px;
+    position: relative;
+    bottom: 15px;
+    left: 60px;
+}
+
+.TumblrIcon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    left: 40px;
+    top: 13px;
+}
+
+.CommentsInstagram {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.LikeButtonInstagram {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+}
+
+.ViaInstagram {
+    font-family: "Muli", "Sans Serif";
+    font-size: 19px;
+    position: relative;
+    left: 120px;
+    bottom: 15px;
+}
+
+.InstagramIcon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+    left: 103px;
+}
+
+.CommentsFacebook {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.LikeButtonFacebook {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+}
+
+.ViaFacebook {
+    font-family: "Muli", "Sans Serif";
+    font-size: 19px;
+    position: relative;
+    left: 110px;
+    bottom: 15px;
+}
+
+.FacebookIcon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+
+.FavoriteButton {
+    margin-left: 5px;
+    width: 36px;
+    height: 36px;
+}
+
+.RepostButton {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    top: 5px;
+}
+
+.ViaTwitter {
+    position: relative;
+    font-family: "Muli", "Sans Serif";
+    font-size: 19px;
+    bottom: 7px;
+    left: 175px;
+}
+
+.TwitterIcon {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 13px;
+    left: 155px;
+}
+
+.TopCommentBar {
+    width: 540px;
+    height: 60px;
+    margin-top: 120px;
+    margin-left: -40px; 
+    /* had to use negative because
+       the browser thought
+       that I had a margin of 40       
+       when I actually did not. It
+       might look weird in your 
+       browser window. */
+    margin-bottom: 0px;
+}
+
+.CommentTitle {
+    font-family: "Muli", "Sans Serif";
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.NewComment {
+    display: inline;
+    margin-left: 140px;
+}
+
+.CommentBoxFirst {
+    width: 520px;
+    height: 140px;
+    margin-left: 10px;
+    background-color: #f0eded;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.CommentUsername {
+    font-family: "Muli", "Sans Serif";
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.BottomCommentBar {
+    list-type: none;
+    width: 520px;
+    height: 50px;
+    margin-left: -45px;
+    /* same issue :/ */
+    margin-top: 0px;
+}
+
+.CommentTextFirst {
+    font-family: "Muli", "Sans Serif";
+    font-size: 20px;
+    width: 520px;
+    height: 55px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.CommentBoxSecond {
+    width: 470px;
+    height: 140px;
+    background-color: #f0eded;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.CommentTextSecond {
+    width: 470px;
+    height: 55px;
+    font-family: "Muli", "Sans Serif";
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.ReplyButton {
+    margin-left: 5px;
+}
+
+.CommentBoxThird {
+    width: 420px;
+    height: 140px;
+    background-color: #f0eded;
+    border-radius: 10px;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+.CommentTextThird {
+    width: 420px;
+    height: 55px;
+    font-family: "Muli", "Sans Serif";
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.PostInput {
+    margin-left: 22px;
+    margin-top: 100px;
+}
+
+.PostOptions ul {
+    width: 540px;
+    height: 40px;
+    display: inline;
+    list-type: none;
+    margin-top: 20px;
+}
+
+.InsertImage {
+    margin-left: 0px;
+}
+
+.PostButton {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.InsertVideo {
+    margin-left: 55px;
+}
+
+.Keyboard {
+    width: 540px;
+    height: 287;
+    margin-top: 183px;
+    margin-bottom: 0px;
+}
+
+.NetworkChoose {
+    font-family: "Muli", "Sans Serif";
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 190px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Networks {
+    display: inline;
+    list-type: none;
+    margin-left: 37px;
+}
+
+.IconBig {
+    width: 72px;
+    height: 72px;
+}
+
+.Settings {
+    font-family: "Muli", "Sans Serif";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.SettingsOption {
+    width: 538px;
+    height: 60px;
+    background-color: #f0eded;
+    border:2px solid black;
+    position: relative;
+    font-family: "Muli", "Sans Serif";
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.Following {
+    font-family: "Muli", "Sans Serif";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.FollowBox {
+    width: 538px;
+    height: 80px;
+    background-color: #f0eded;
+    border:2px solid black;
+    margin-top: 1px;
+}
+
+.Description {
+    font-family: "Muli", "Sans Serif";
+    font-size: 20px;
+}
+
+.FollowingButton {
+    position: relative;
+    left: 270px;
+    bottom: 20px;
+}
+
+.FollowList {
+    display: inline;
+    list-style: none;
+    margin-left: -35px;
+}
+
+/*.AccountImage {
+    width: 48px;
+    height: 48px;
+}*/
+
+.UserFollowing {
+    font-family: "Muli", "Sans Serif";
+    font-size: 30px;
+    margin-left: 15px;
+}

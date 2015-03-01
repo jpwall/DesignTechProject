@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>Following</title>
+  </head>
+  <body>
+    <div class="screen scroll">
+      <div class="header">
+	<ul class="buttons">
+	  <li><button onclick="window.location.href='TumblrOptions.html'" class="NavButton"><img src="arrow.png"></button></li>
+	  <li><button onclick="window.location.href='HomeFeed.html'" class="NavButton"><img src="Home.png" class="Home"></button></li>
+	  <li><button class="NavButton"><img src="New.png" class="New"></button></li>
+	</ul>
+      </div>
+     <div class="Following">Following</div>
+     <div class="FollowBox">
+       <div class="UserFollowing">User3</div>
+       <ul class="FollowList">
+	 <li class="Description">John M.</li>
+	 <li><button class="FollowingButton">Following</button></li>
+       </ul>
+     </div>
+     <div class="FollowBox">
+       <div class="UserFollowing">User3</div>
+       <ul class="FollowList">
+	 <li class="Description">Max P.</li>
+	 <li><button class="FollowingButton">Following</button></li>
+       </ul>
+     </div>
+     <div class="FollowBox">
+       <div class="UserFollowing">User3</div>
+       <ul class="FollowList">
+	 <li class="Description">Patty J.</li>
+	 <li><button class="FollowingButton">Following</button></li>
+       </ul>
+     </div>
+    </div>
+  </body>
+</html>

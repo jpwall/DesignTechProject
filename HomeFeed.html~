@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="screen scroll">
+      <div class="header">
+	<ul class="buttons">
+	  <li><button class="NavButton"><img src="options.png" class="Options"></button></li>
+	  <li><button onclick="window.location.href='HomeFeed.html'" class="NavButton"><img src="Home.png" class="Home"></button></li>
+	  <li><button onclick="window.location.href='NewPost.html'" class="NavButton"><img src="New.png" class="New"></button></li>
+	</ul>
+      </div>
+      <div class="TumblrPost">
+	<div class="TumblrPostBox">
+	  <div class="TopPostBar">
+	    <div class="UserName">smiley4209</div>
+	    <div><img src="Repost.png" class="ReblogIcon"></div>
+	    <div class="RebloggedFrom">user1003</div>
+	  </div>
+	  <div class="PostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</div>
+	  <div class="FloatRight">
+	    <ul class="BottomPostBar">
+	      <li><button onclick="window.location.href='Comments.html'" class="CommentsTumblr">comments</button></li>
+	      <li><img src="HeartBlack.png" class="NoteButton"</li>
+	      <li><img src="Repost.png" class="ReblogButton"></li>
+	      <li class="ViaTumblr">Via: </li>
+	      <li><img src="TumblrIcon.png" class="TumblrIcon"></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      <div class="InstagramPost">
+	<div class="InstagramPostBox">
+	  <div class="TopPostBar">
+	    <div class="UserName">jpwall4902</div>
+	  </div>
+	  <div class="PostImage"><img src="InstagramImage.jpg" class="InstagramImage"></div>
+	  <div class="ImageCaption">Downtown Seattle. Image credit: google images</div>
+	  <div class="FloatRight">
+	    <ul class="BottomPostBar">
+	      <li><button onclick="window.location.href='Comments.html'" class="CommentsInstagram">comments</button></li>
+	      <li><img src="HeartRed.png" class="LikeButtonInstagram"</li>
+	      <li class="ViaInstagram">Via: </li>
+	      <li><img src="InstagramIcon.png" class="InstagramIcon"></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      <div class="FacebookPost">
+	<div class="FacebookPostBox">
+	  <div class="TopPostBar">
+	    <div class="UserName">frank9000</div>
+	  </div>
+	  <div class="PostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</div>
+	  <div class="FloatRight">
+	    <ul class="BottomPostBar">
+	      <li><button onclick="window.location.href='Comments.html'" class="CommentsFacebook">comments</button></li>
+	      <li><img src="LikeFB.png" class="LikeButtonFacebook"></li>
+	      <li class="ViaFacebook">Via: </li>
+	      <li><img src="FacebookIcon.png" class="FacebookIcon"></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      <div class="TwitterPost">
+	<div class="TwitterPostBox">
+	  <div class="TopPostBar">
+	    <div class="UserName">wall0908</div>
+	  </div>
+	  <div class="PostText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</div>
+	  <div class="FloatRight">
+	    <ul class="BottomPostBar">
+	      <li><img src="FavoriteBlack.png" class="FavoriteButton"></li>
+	      <li><img src="Repost.png" class="RepostButton"></li>
+	      <li class="ViaTwitter">Via: </li>
+	      <li><img src="TwitterIcon.png" class="TwitterIcon"></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
