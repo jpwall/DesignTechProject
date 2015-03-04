@@ -8,6 +8,14 @@
     overflow-x: hidden;
 }
 
+/*.phone {
+    width: 550px;
+    height: 990px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+} to be continued at a later date */
+
 .WelcomeText {
     font-family: "Muli", "Sans Serif";
     text-align: center;
@@ -630,3 +638,5 @@ ul li {
 body {
     background-image: white;
 }
+
+
